@@ -11,7 +11,10 @@ public class AppConfig {
 
     @Bean
     public JavaMailSender javaMailSenderConfiguration() {
-        return new JavaMailSenderImpl();
+        JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
+        mailSender.setHost("localhost");
+        mailSender.setPort(1025);
+        return mailSender;
     }
 
 }
