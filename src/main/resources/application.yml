@@ -3,4 +3,5 @@ server:
   error:
     server.error.include-message: always
     server.error.include-binding-errors: always
-
+    whitelabel:
+      enabled: false
