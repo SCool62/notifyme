@@ -7,7 +7,7 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 @Configuration
-public class AppConfig {
+public class AppConfiguration {
 
     @Bean
     public JavaMailSender javaMailSenderConfiguration() {
