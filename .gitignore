@@ -36,3 +36,6 @@ build/
 mvnw
 mvnw.cmd
 .mvn/
+
+## PSQL ##
+psql
