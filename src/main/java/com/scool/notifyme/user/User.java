@@ -24,9 +24,12 @@ public class User {
     @Column(unique = true)
     private String alias;
 
+    private boolean enabled;
+
     public User(String email, String alias) {
         this.email = email;
         this.alias = alias;
+        enabled = false;
     }
 
 
